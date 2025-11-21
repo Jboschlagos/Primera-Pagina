@@ -1,1 +1,1 @@
-“Se agregó el archivo app.js con la funciona
+“Se agregó el archivo app.js "
