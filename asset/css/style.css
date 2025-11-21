@@ -55,25 +55,22 @@
   }
 }
 
-.btn-arriba {
-  position: fixed !important;
-  bottom: 20px !important;
-  right: 20px !important;
-
-  width: 50px !important;     /* agregar !important */
-  height: 50px !important;    /* agregar !important */
-
+#ir-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
   border-radius: 50% !important;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
 
-  font-size: 24px !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-
-  padding: 0 !important;
-
-  background-color: #0d6efd !important; /* azul Bootstrap */
-  color: white !important;
-
-  z-index: 99999 !important;   /* más alto para que nada lo tape */
+/* CAMBIO DE COLOR CON HOVER */
+#ir-arriba:hover {
+  background-color: #b30009; /* Un azul más oscuro */
+  cursor: pointer;
 }
